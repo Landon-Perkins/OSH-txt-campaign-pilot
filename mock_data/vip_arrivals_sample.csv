@@ -1,0 +1,2 @@
+arrival_batch_id,arrival_ts,patient_id,risk_tier,vip_reason
+vip_batch_002,2026-10-13T07:45:00Z,P013,VIP,Escalated risk after recent hospitalization
