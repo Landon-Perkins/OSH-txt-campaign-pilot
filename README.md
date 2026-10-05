@@ -4,8 +4,7 @@
 Design a pilot solution for a text-message appointment reminder campaign targeting 1,000 high-risk patients over 5 weeks, while protecting call center capacity and prioritizing higher-risk members.
 
 ## Slide Presentation
-[Google Slide Link]()
-TBD
+[Google Slide Link](https://docs.google.com/presentation/d/1fV9LlOckEVF0OFQu3kRA_RAxj3QX_DV8T60L7b8d7nM/edit?slide=id.p10#slide=id.p10)
 
 ## Scope
 - GCP-native design with BigQuery, Cloud Storage, and Cloud Composer.
