@@ -87,7 +87,7 @@ WITH remaining_capacity AS (
   LEFT JOIN `gold.fact_campaign_dispatch` f
     ON f.campaign_id = w.campaign_id
   WHERE w.campaign_id = 'OSH_PILOT_2026Q4'
-    AND w.week_num = 1
+    AND w.week_num = 1 -- ToDo: Design Goal - implement the full week 2-5 pacing
   GROUP BY w.weekly_target_count, w.cumulative_target_count
 ),
 ranked AS (
