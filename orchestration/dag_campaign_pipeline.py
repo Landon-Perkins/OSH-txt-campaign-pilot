@@ -17,7 +17,7 @@ SQL_ROOT = Path(__file__).resolve().parent.parent / "sql"
 with DAG(
     dag_id="osh_pilot_campaign_pipeline",
     start_date=datetime(2026, 10, 5),
-    schedule="0 8 * * *",
+    schedule="0 8 * * 1",
     catchup=False,
     max_active_runs=1,
     tags=["osh", "pilot", "campaign"],
